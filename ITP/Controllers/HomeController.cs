@@ -26,4 +26,5 @@ namespace ITP.Controllers
             return View(item);
         }
     }
+    public ActionResult CPU
 }

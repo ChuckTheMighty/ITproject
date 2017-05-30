@@ -196,6 +196,7 @@
     <Content Include="Img\MB.jpg" />
     <Content Include="Img\MOR.jpg" />
     <Content Include="Img\PER.jpg" />
+    <Content Include="Img\RAM.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
