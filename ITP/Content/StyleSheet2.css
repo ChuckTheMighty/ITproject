@@ -1,6 +1,98 @@
-﻿.home
-{
-    position: static;
-    width: 3%;
+﻿
+/* http://localhost:51977/Home/CPU */
+#images {
+    width: 100%;
+    font-size: 0px;
 }
 
+/* http://localhost:51977/Home/CPU */
+body {
+    margin: 0px;
+}
+
+/* http://localhost:51977/Home/CPU */
+img {
+    display: inline-block;
+    width: 33.33%;
+}
+
+/* http://localhost:51977/Home/CPU */
+p {
+    font-family: Segoe UI;
+}
+
+/* http://localhost:51977/Home/CPU */
+#text {
+    width: 75%;
+}
+h1 {
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 4em;
+    line-height: 0em;
+    margin: 0.5em;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+}
+
+/* http://localhost:51977/Home/CPU */
+a {
+    display: inline-block;
+    width: 10%;
+}
+
+/* http://localhost:51977/Home/CPU */
+#topbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 4em;
+    margin: 0px;
+    top: 0px;
+    opacity: 0.9;
+}
+
+/* http://localhost:51977/Home/CPU */
+#main {
+    margin-top: 4em;
+}
+
+/* http://localhost:51977/Home/CPU */
+#copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* StyleSheet2.css (2, 2) */
+.home {
+    position: relative;
+    width: 50%;
+    vertical-align: middle.;
+}
+
+/* StyleSheet2.css (13, 10) */
+#images {
+    width: 100%;
+    font-size: 0px;
+    margin-top: 0%;
+}
+
+/* StyleSheet2.css (19, 7) */
+body {
+    margin: 0px;
+    margin-top: 0px;
+}
+
+/* StyleSheet2.css (30, 4) */
+p {
+    font-family: Segoe UI;
+    font-size: 1.4em;
+}
+
+/* StyleSheet2.css (35, 8) */
+#text {
+    width: 75%;
+    margin: auto;
+}
