@@ -19,7 +19,7 @@ namespace ITP.Controllers
                 new Item { Title = "Optická mech.", Link = "CD" },
                 new Item { Title = "Klávesnice a Myš", Link = "KB" },
                 new Item { Title = "Tiskárna", Link = "PER" },
-                new Item { Title = "Operační Paměť", Link = "HDD" },
+                new Item { Title = "Operační Paměť", Link = "RAM" },
                 new Item { Title = "Vnitřní Paměť", Link = "HDD" },
                 new Item { Title = "Základní Deska", Link = "MB" }
             };
