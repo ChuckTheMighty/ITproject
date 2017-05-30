@@ -11,6 +11,7 @@
 /* Nová pravidla */
 body {
     margin: 0px;
+    text-align:center
 }
 
 /* Nová pravidla */
@@ -25,15 +26,19 @@ img:hover {
     width: 110%;
     transition: 0.6s;
     margin-left: -5%;
-    margin-bottom: -15%;
+    margin-bottom: -8%;
+    margin-top:-7%;
 }
 
 /* Nová pravidla */
-.item a {
+a {
     width: 100%;
     position: relative;
     height: 20vw;
     z-index:2;
+    color:black;
+    text-decoration:none;
+    z-index: 3;
 }
 
 /* Nová pravidla */
@@ -44,3 +49,8 @@ p {
     font-weight: 100;
     z-index:1;
 }
+
+item div {
+    z-index: 50;
+}
+ 
