@@ -1,12 +1,11 @@
 ﻿/* Nová pravidla */
 .item {
     position: relative;
-    width: 23%;
+    width: 22%;
     margin: 1%;
     height: auto;
     display: inline-block;
     text-align: center;
-    width: 31%;
 }
 
 /* Nová pravidla */
@@ -23,9 +22,9 @@ img {
 
 /* Nová pravidla */
 img:hover {
-    width: 120%;
-    transition: 1s;
-    margin-left: -10%;
+    width: 110%;
+    transition: 0.6s;
+    margin-left: -5%;
     margin-bottom: -15%;
 }
 
