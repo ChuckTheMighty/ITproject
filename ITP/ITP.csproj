@@ -190,6 +190,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Img\CD.jpg" />
+    <Content Include="Img\CPUa.jpg" />
+    <Content Include="Img\CPUb.jpg" />
+    <Content Include="Img\CPUc.jpg" />
     <Content Include="Img\GPU.jpg" />
     <Content Include="Img\HDD.jpg" />
     <Content Include="Img\CPU.jpg" />
