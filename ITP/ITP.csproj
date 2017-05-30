@@ -192,6 +192,7 @@
     <Content Include="Img\I71.jpg" />
     <Content Include="Img\Keyboard.jpg" />
     <Content Include="Img\monitor.jpg" />
+    <Content Include="Img\Printer.jpg" />
     <Content Include="Img\Sestava.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
