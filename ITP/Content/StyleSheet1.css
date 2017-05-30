@@ -30,7 +30,7 @@ img:hover {
 }
 
 /* Nová pravidla */
-.item div {
+.item a {
     width: 100%;
     position: relative;
     height: 20vw;
