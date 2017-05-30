@@ -1,0 +1,45 @@
+﻿/* Nová pravidla */
+.item {
+    position: relative;
+    width: 23%;
+    margin: 1%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 31%;
+    position: relative;
+}
+
+/* Nová pravidla */
+body {
+    margin: 0px;
+}
+
+/* Nová pravidla */
+img {
+    width: 100%;
+    transition: 1s;
+}
+
+/* Nová pravidla */
+img:hover {
+    width: 120%;
+    transition: 1s;
+    margin-left: -10%;
+}
+
+/* Nová pravidla */
+.item div {
+    width: 100%;
+    position: relative;
+    height: 20vw;
+}
+
+/* Nová pravidla */
+p {
+    font-size: 2em;
+    margin: 0px;
+    font-family: Segoe UI;
+    font-weight: 100;
+}
