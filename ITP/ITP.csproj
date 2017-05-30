@@ -189,15 +189,13 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Img\CD.jpg" />
-    <Content Include="Img\GTX.jpg" />
+    <Content Include="Img\GPU.jpg" />
     <Content Include="Img\HDD.jpg" />
-    <Content Include="Img\Home.png" />
-    <Content Include="Img\I71.jpg" />
-    <Content Include="Img\Keyboard.jpg" />
-    <Content Include="Img\MBoard.jpg" />
-    <Content Include="Img\monitor.jpg" />
-    <Content Include="Img\Printer.jpg" />
-    <Content Include="Img\Sestava.jpg" />
+    <Content Include="Img\CPU.jpg" />
+    <Content Include="Img\KB.jpg" />
+    <Content Include="Img\MB.jpg" />
+    <Content Include="Img\MOR.jpg" />
+    <Content Include="Img\PER.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -212,7 +210,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Shared\Layout1.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -222,7 +219,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\CPU.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

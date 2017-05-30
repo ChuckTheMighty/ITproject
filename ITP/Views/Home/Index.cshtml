@@ -9,20 +9,16 @@
     <link href="~/Content/StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>            
 
-@{
-    var open = <!-- ;
-    var close = -->;
-}
 <body>
-    <div>@open
+    <div>
         @foreach(var tile in Model){
             string link = tile.Link + ".JPG";
-        @close<div class="item">
+            <div class="item">
             <a href="@tile.Link">
                 <img src="~/Img/@link" alt="@tile.Title"/>
             </a>
             <p>@tile.Title</p>
-        </div>@open
+        </div>
         }
     </div>
 </body>

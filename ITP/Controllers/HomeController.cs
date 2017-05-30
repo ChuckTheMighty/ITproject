@@ -13,21 +13,17 @@ namespace ITP.Controllers
         {
             List<Item> item = new List<Item>()
             {
-                new Item { Title = "CPU" },
-                new Item { Title = "GPU" },
-                new Item { Title = "Monitor" },
-                new Item { Title = "Optická mech." },
-                new Item { Title = "Klávesnice a Myš" },
-                new Item { Title = "Tiskárna" },
-                new Item { Title = "Operační Paměť" },
-                new Item { Title = "Vnitřní Paměť" },
-                new Item { Title = "Základní Deska" }
+                new Item { Title = "Procesor", Link = "CPU" },
+                new Item { Title = "GPU", Link = "GPU" },
+                new Item { Title = "Monitor", Link = "MOR" },
+                new Item { Title = "Optická mech.", Link = "CD" },
+                new Item { Title = "Klávesnice a Myš", Link = "KB" },
+                new Item { Title = "Tiskárna", Link = "PER" },
+                new Item { Title = "Operační Paměť", Link = "HDD" },
+                new Item { Title = "Vnitřní Paměť", Link = "HDD" },
+                new Item { Title = "Základní Deska", Link = "MB" }
             };
             return View(item);
-        }
-        public ActionResult CPU()
-        {
-            return View();
         }
     }
 }
