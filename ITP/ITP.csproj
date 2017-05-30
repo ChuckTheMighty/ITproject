@@ -188,7 +188,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Img\inteli7.jpg" />
+    <Content Include="Img\CD.jpg" />
+    <Content Include="Img\GTX.jpg" />
+    <Content Include="Img\HDD.jpg" />
+    <Content Include="Img\I71.jpg" />
+    <Content Include="Img\Keyboard.jpg" />
+    <Content Include="Img\MBoard.jpg" />
+    <Content Include="Img\monitor.jpg" />
+    <Content Include="Img\Printer.jpg" />
     <Content Include="Img\Sestava.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
