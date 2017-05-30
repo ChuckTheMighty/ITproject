@@ -7,13 +7,16 @@
 <head>
     <title>IT project</title>
     <link href="~/Content/StyleSheet1.css" rel="stylesheet" type="text/css" />
-</head>
+</head>            
+
+@{
+    var open = <!-- ;
+    var close = -->;
+}
 <body>
-    <div>
+    <div>@open
         @foreach(var tile in Model){
             string link = tile.Link + ".JPG";
-            string open = "<!--";
-            string close = "-->";
         @close<div class="item">
             <a href="@tile.Link">
                 <img src="~/Img/@link" alt="@tile.Title"/>
@@ -21,13 +24,5 @@
             <p>@tile.Title</p>
         </div>@open
         }
-
-        <div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><
     </div>
 </body>
