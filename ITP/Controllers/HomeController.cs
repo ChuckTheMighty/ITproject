@@ -13,7 +13,7 @@ namespace ITP.Controllers
         {
             List<Item> item = new List<Item>()
             {
-                new Item { Title = "Procesor" },
+                new Item { Title = "CPU" },
                 new Item { Title = "GPU" },
                 new Item { Title = "Monitor" },
                 new Item { Title = "Optická mech." },
@@ -24,6 +24,10 @@ namespace ITP.Controllers
                 new Item { Title = "Základní Deska" }
             };
             return View(item);
+        }
+        public ActionResult CPU()
+        {
+            return View();
         }
     }
 }
