@@ -10,15 +10,16 @@
 </head>            
 
 <body>
+    <h1>Počítač a jeho Hardware</h1>
     <div>
         @foreach(var tile in Model){
             string link = tile.Link + ".JPG";
-            <div class="item">
-            <a href="@tile.Link">
-                <img src="~/Img/@link" alt="@tile.Title"/>
+            <a href="@tile.Link" class="item">
+                <div >
+                    <img src="~/Img/@link" alt="@tile.Title"/>
+                </div>
+                <p>@tile.Title</p>
             </a>
-            <p>@tile.Title</p>
-        </div>
         }
     </div>
 </body>
