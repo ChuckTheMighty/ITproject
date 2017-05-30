@@ -27,7 +27,8 @@ namespace ITP.Controllers
         }
         public ActionResult CPU()
         {
-            return View();
+            var item = new Item() { Title = "Procesor", Link = "CPU" };
+            return View(item);
         }
     }
 }
