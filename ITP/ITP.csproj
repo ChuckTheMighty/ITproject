@@ -184,6 +184,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\StyleSheet1.css" />
+    <Content Include="Content\StyleSheet2.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -192,6 +193,7 @@
     <Content Include="Img\GPU.jpg" />
     <Content Include="Img\HDD.jpg" />
     <Content Include="Img\CPU.jpg" />
+    <Content Include="Img\Home.png" />
     <Content Include="Img\KB.jpg" />
     <Content Include="Img\MB.jpg" />
     <Content Include="Img\MOR.jpg" />
@@ -211,6 +213,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Shared\HtmlPage1.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
