@@ -189,8 +189,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Img\CD.jpg" />
     <Content Include="Img\GTX.jpg" />
+    <Content Include="Img\HDD.jpg" />
     <Content Include="Img\I71.jpg" />
     <Content Include="Img\Keyboard.jpg" />
+    <Content Include="Img\MBoard.jpg" />
     <Content Include="Img\monitor.jpg" />
     <Content Include="Img\Printer.jpg" />
     <Content Include="Img\Sestava.jpg" />
