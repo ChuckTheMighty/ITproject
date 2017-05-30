@@ -1,73 +1,33 @@
-﻿@{
+﻿@model List<ITP.Models.Item>
+@{
     ViewBag.Title = "Home Page";
 }
 
 <!DOCTYPE html>
 <head>
     <title>IT project</title>
-    <link rel="~/Content/StyleSheet1.css" type="text/css" />
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div>
+        @foreach(var tile in Model){
+            string link = tile.Link + ".JPG";
+            string open = "<!--";
+            string close = "-->";
+        @close<div class="item">
+            <a href="@tile.Link">
+                <img src="~/Img/@link" alt="@tile.Title"/>
+            </a>
+            <p>@tile.Title</p>
+        </div>@open
+        }
+
         <div class="item">
             <div>
                 <img />
             </div>
             <p>Test</p>
         </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div><!--
-        --><div class="item">
-            <div>
-                <img />
-            </div>
-            <p>Test</p>
-        </div>
+        --><
     </div>
 </body>
