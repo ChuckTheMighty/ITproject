@@ -7,7 +7,8 @@
 @section title {
     @Model.Title
 }
-@for (int i = 0; i < Text.Length; i++){
+@for (int i = 0; i < Text.Length; i++)
+{
     string Link = Model.Link + Text[i] + ".JPG";
     <img src="~/Img/@Link" />
 }

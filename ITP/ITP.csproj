@@ -252,6 +252,14 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\CPU.cshtml" />
     <Content Include="Shared\_SubLayout.cshtml" />
+    <Content Include="Views\Home\CD.cshtml" />
+    <Content Include="Views\Home\GPU.cshtml" />
+    <Content Include="Views\Home\HDD.cshtml" />
+    <Content Include="Views\Home\KB.cshtml" />
+    <Content Include="Views\Home\MB.cshtml" />
+    <Content Include="Views\Home\MOR.cshtml" />
+    <Content Include="Views\Home\PER.cshtml" />
+    <Content Include="Views\Home\RAM.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

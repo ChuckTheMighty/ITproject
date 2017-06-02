@@ -30,5 +30,45 @@ namespace ITP.Controllers
             var item = new Item() { Title = "Procesor", Link = "CPU" };
             return View(item);
         }
+        public ActionResult CD()
+        {
+            var item = new Item() { Title = "Disc Drive", Link = "CD" };
+            return View(item);
+        }
+        public ActionResult GPU()
+        {
+            var item = new Item() { Title = "Graphics", Link = "GPU" };
+            return View(item);
+        }
+        public ActionResult HDD()
+        {
+            var item = new Item() { Title = "Disk Drive nebo Solid State", Link = "HDD" };
+            return View(item);
+        }
+        public ActionResult KB()
+        {
+            var item = new Item() { Title = "Klávesnice a myš", Link = "KB" };
+            return View(item);
+        }
+        public ActionResult MB()
+        {
+            var item = new Item() { Title = "Motherboard", Link = "MB" };
+            return View(item);
+        }
+        public ActionResult MOR()
+        {
+            var item = new Item() { Title = "Monitor", Link = "MOR" };
+            return View(item);
+        }
+        public ActionResult PER()
+        {
+            var item = new Item() { Title = "Tiskarna", Link = "PER" };
+            return View(item);
+        }
+        public ActionResult RAM()
+        {
+            var item = new Item() { Title = "System Memory", Link = "RAM" };
+            return View(item);
+        }
     }
 }

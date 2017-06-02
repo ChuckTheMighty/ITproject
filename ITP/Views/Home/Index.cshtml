@@ -14,7 +14,7 @@
     <div>
         @foreach(var tile in Model){
             string link = tile.Link + ".JPG";
-            <a href="Home/@tile.Link" class="item">
+            <a href="~/Home/@tile.Link" class="item">
                 <div >
                     <img src="~/Img/@link" alt="@tile.Title"/>
                 </div>
