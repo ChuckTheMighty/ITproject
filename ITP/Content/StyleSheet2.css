@@ -30,7 +30,9 @@ h1 {
     font-weight: 100;
     font-size: 4em;
     line-height: 0em;
-    margin: 0.5em;
+    margin: 0;
+    margin-top: 0.5em;
+    position: fixed;
     display: inline-block;
     text-align: center;
     width: 80%;
@@ -39,7 +41,9 @@ h1 {
 /* http://localhost:51977/Home/CPU */
 a {
     display: inline-block;
-    width: 10%;
+    width: auto;
+    height: 4em;
+    font-size: 1em;
 }
 
 /* http://localhost:51977/Home/CPU */
@@ -51,6 +55,7 @@ a {
     margin: 0px;
     top: 0px;
     opacity: 0.9;
+    font-size: 1em;
 }
 
 /* http://localhost:51977/Home/CPU */
@@ -68,8 +73,9 @@ a {
 /* StyleSheet2.css (2, 2) */
 .home {
     position: relative;
-    width: 50%;
-    vertical-align: middle.;
+    height: 4em;
+    vertical-align: middle;
+    width: auto;
 }
 
 /* StyleSheet2.css (13, 10) */

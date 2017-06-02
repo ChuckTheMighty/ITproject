@@ -1,27 +1,19 @@
 ﻿@model ITP.Models.Item
 @{
-    Layout = "~/Shared/_Layout.cshtml";
-    ViewBag.TitleSmall = "CPU";
-}
-
-@{
+    Layout = "~/Shared/_SubLayout.cshtml";
+    ViewBag.Title = "CPU";
     string[] Text = new string[3] { "a", "b", "c" };
 }
-
-    <h1>Title</h1>
+@section title {
+    @Model.Title
+}
+@for (int i = 0; i < Text.Length; i++){
+    string Link = Model.Link + Text[i] + ".JPG";
+    <img src="~/Img/@Link" />
+}
 </div>
-<div id="main">
-    <div id="images">
-        @for (int i = 0; i < Text.Length; i++)
-        {
-            string Link = Model.Link + Text[i] + ".JPG";
-            <img src="~/Img/@Link" />
-        }
-    </div>
-    <div id="text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique viverra. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique viverra. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique viverra. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique viverra. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis. </p>
-
-    </div>
+<div id="text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique viverra. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique vivera. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique viverra. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend tristique vivera. Sed ut augue ut ex cursus mollis. Aenean quis ultrices urna. Vivamus ultrices vel lacus in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare faucibus est, sit amet ultricies nunc fermentum a. Fusce aliquam quam nisi, vel tempor tortor tempus ac. Maecenas sed molestie eros. Maecenas ornare sed metus at dignissim. Etiam et erat id arcu laoreet sagittis. Nulla leo est, congue bibendum vehicula eu, auctor sed nisi. Duis luctus consectetur turpis, quis posuere orci mattis vel. Etiam at scelerisque libero, vel maximus neque. Nullam quis ligula vitae eros mollis venenatis. </p>

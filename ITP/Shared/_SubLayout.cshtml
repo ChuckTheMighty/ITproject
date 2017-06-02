@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Content/StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <title>IT PROJEKT</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="topbar">
+        <a href="../Home/Index"><img class="home" src="../Img/Home.png" /></a>
+        <h1>@RenderSection("title", true)</h1>
+    </div>
+    <div id="main">
+        <div id="images">
+            @RenderBody()
+        </div>
+            <p id="copyright">© Pavel Verner, José Smutný</p>
+    </div>
+</body>
+</html>
