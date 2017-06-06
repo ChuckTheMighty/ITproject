@@ -3,9 +3,37 @@
     Layout = "~/Shared/_SubLayout.cshtml";
     ViewBag.Title = Model.Link;
     string[] Text = new string[3] { "a", "b", "c" };
+    string[] Names = new string[9] { "CD", "CPU", "GPU", "HDD", "KB", "MB", "MOR", "PER", "RAM" };
 }
 @section title {
     @Model.Title
+}
+@for (int i = 0; i < Names.Length; i++)
+{
+    if (Model.Link == Names[i])
+    {
+        if (i == 0)
+        {
+            int bef = 8;
+            int af = i + 1;
+            @section after {@Names[af]}
+            @section before {@Names[bef]}
+        }
+        else if (i == 8)
+        {
+            int af = 0;
+            int bef = i - 1;
+            @section after {@Names[af]}
+            @section before {@Names[bef]}
+        }
+        else
+        {
+            int af = i + 1;
+            int bef = i - 1;
+            @section after {@Names[af]}
+            @section before {@Names[bef]}
+        }
+    }
 }
 @for (int i = 0; i < Text.Length; i++)
 {

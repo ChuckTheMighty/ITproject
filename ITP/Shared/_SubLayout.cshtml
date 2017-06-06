@@ -11,11 +11,13 @@
 </head>
 <body>
     <div id="topbar">
+        <a class="sideO" href="/Home/@RenderSection("before", true)"><img class="icon" src="~/Img/left.jpg"/></a>
         <a href="../Home/Index"><img class="home" src="../Img/Home.png" /></a>
+        <a class="sideO" href="/Home/@RenderSection("after", true)"><img class="icon" src="~/Img/right.jpg" /></a>
         <h1>@RenderSection("title", true)</h1>
     </div>
     <div id="main">
-        <div id="images">
+    <div id="images">
             @RenderBody()
         </div>
             <p id="copyright">© Pavel Verner, José Smutný, Dagmar Hartmanová, Karolína Záborcová</p>

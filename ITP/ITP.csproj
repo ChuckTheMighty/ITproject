@@ -210,6 +210,7 @@
     <Content Include="Img\KBa.jpg" />
     <Content Include="Img\KBb.jpg" />
     <Content Include="Img\KBc.jpg" />
+    <Content Include="Img\left.jpg" />
     <Content Include="Img\MB.jpg" />
     <Content Include="Img\MBa.jpg" />
     <Content Include="Img\MBb.jpg" />
@@ -226,6 +227,7 @@
     <Content Include="Img\RAMa.jpg" />
     <Content Include="Img\RAMb.jpg" />
     <Content Include="Img\RAMc.jpg" />
+    <Content Include="Img\right.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
