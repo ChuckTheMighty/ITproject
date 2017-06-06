@@ -3,7 +3,7 @@
     position: relative;
     width: 22%;
     margin: 1%;
-    height: auto;
+    height: 14vw;
     display: inline-block;
     text-align: center;
 }
@@ -29,11 +29,11 @@ img {
 
 /* Nová pravidla */
 img:hover {
-    width: 110%;
+    width: 115%;
     transition: 0.6s;
-    margin-left: -5%;
+    margin-left: -7.5%;
     margin-bottom: -8%;
-    margin-top:-7%;
+    margin-top:-3%;
 }
 
 /* Nová pravidla */
@@ -54,9 +54,23 @@ p {
     font-family: Segoe UI;
     font-weight: 100;
     z-index:1;
+    font-weight: 200;
 }
 
-item div {
-    z-index: 50;
+.item div {
+    height: 15vw;
 }
- 
+
+h2{
+    font-family: 'Segoe UI';
+    font-weight:400;
+    font-size:1.8em;
+    margin-left:1em;
+}
+/* http://localhost:51977/Home/CPU */
+#copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 3em;
+}
